@@ -19,8 +19,7 @@ const ScalableText = ({ style, children, ...props }) => {
 };
 
 ScalableText.propTypes = {
-  style: Text.propTypes.style,
-  children: PropTypes.node.isRequired
+  style: Text.propTypes.style
 };
 
 ScalableText.defaultProps = {
